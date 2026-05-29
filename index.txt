@@ -31,12 +31,12 @@
 </section>
 <section>
 <h2>Our Mission</h2>
-<img src="images/hero.jpg" alt="Community support programme">
+<img src="images/community.jpg" alt="Community support programme">
 <p>We provide education, wellness support, skills development and community empowerment initiatives.</p>
 </section>
 <section>
 <h2>Get Involved</h2>
-<img src="images/team.jpg" alt="Volunteers helping community">
+<img src="images/volunteer.jpg" alt="Volunteers helping community">
 <p>Become a volunteer, sponsor an event or donate online.</p>
 </section>
 </main>
