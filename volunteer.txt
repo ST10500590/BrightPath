@@ -1,30 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volunteer | BrightPath</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header section -->
 <header>
-  <div class="logo">BrightPath</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="programmes.html">Programmes</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="donate.html">Donate</a></li>
-      <li><a href="volunteer.html">Volunteer</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<div class="logo">BrightPath</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="programmes.html">Programmes</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="donate.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 </header>
-<footer>
-  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
-</footer>
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Volunteer</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header>...</header>
+
 <main>
 <h1>Volunteer Registration</h1>
+<img src="images/volunteer.jpg" alt="Volunteer registration">
+<p>Join our volunteer team and make a difference in the community.</p>
+
+<!-- Volunteer form -->
 <form>
-<label>Full Name</label><input type="text">
-<label>Email</label><input type="email">
-<label>Skills</label><textarea></textarea>
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Your Skills</label>
+<textarea placeholder="Describe your skills"></textarea>
+
 <button type="submit">Register</button>
 </form>
 </main>
-<footer>...</footer>
-</body></html>
+
+<footer>
+<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+</footer>
+
+</body>
+</html>

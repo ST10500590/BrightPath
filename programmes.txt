@@ -1,27 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Page setup -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programmes | BrightPath</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header section -->
 <header>
-  <div class="logo">BrightPath</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="programmes.html">Programmes</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="donate.html">Donate</a></li>
-      <li><a href="volunteer.html">Volunteer</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<div class="logo">BrightPath</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="programmes.html">Programmes</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="donate.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 </header>
-<footer>
-  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
-</footer>
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Programmes</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header>...</header>
+
+<!-- Main programmes content -->
 <main>
 <h1>Our Programmes</h1>
-<article><h2>Youth Skills Training</h2><p>CV writing, interview prep and digital literacy.</p></article>
-<article><h2>Homework Support</h2><p>After-school tutoring and mentoring.</p></article>
-<article><h2>Wellness Support</h2><p>Counselling referrals and health awareness workshops.</p></article>
+
+<article>
+<h2>Youth Skills Training</h2>
+<img src="images/programmes.jpg" alt="Youth skills workshop">
+<p>We provide CV writing, interview preparation and digital literacy training.</p>
+</article>
+
+<article>
+<h2>Homework Support</h2>
+<img src="images/about.jpg" alt="Homework support programme">
+<p>After-school tutoring and mentoring programmes help students improve academically.</p>
+</article>
+
+<article>
+<h2>Wellness Support</h2>
+<img src="images/hero.jpg" alt="Community wellness support">
+<p>Community wellness workshops and counselling referrals are offered to families.</p>
+</article>
 </main>
-<footer>...</footer>
-</body></html>
+
+<!-- Footer section -->
+<footer>
+<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+</footer>
+
+</body>
+</html>

@@ -1,27 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events | BrightPath</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
 <header>
-  <div class="logo">BrightPath</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="programmes.html">Programmes</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="donate.html">Donate</a></li>
-      <li><a href="volunteer.html">Volunteer</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<div class="logo">BrightPath</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="programmes.html">Programmes</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="donate.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 </header>
-<footer>
-  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
-</footer>
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Events</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header>...</header>
+
+<!-- Events content -->
 <main>
 <h1>Upcoming Events</h1>
-<section><h2>Career Expo</h2><p>15 June 2026</p></section>
-<section><h2>Community Food Drive</h2><p>20 July 2026</p></section>
-<section><h2>Youth Leadership Camp</h2><p>10 August 2026</p></section>
+
+<section>
+<h2>Career Expo</h2>
+<img src="images/expo.jpg" alt="Career expo event">
+<p>15 June 2026 - Career guidance and networking opportunities for youth.</p>
+</section>
+
+<section>
+<h2>Community Food Drive</h2>
+<img src="images/fooddrive.jpg" alt="Food drive event">
+<p>20 July 2026 - Supporting families with food donations.</p>
+</section>
+
+<section>
+<h2>Youth Leadership Camp</h2>
+<img src="images/team.jpg" alt="Leadership camp">
+<p>10 August 2026 - Leadership development activities and workshops.</p>
+</section>
 </main>
-<footer>...</footer>
-</body></html>
+
+<!-- Footer -->
+<footer>
+<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+</footer>
+
+</body>
+</html>

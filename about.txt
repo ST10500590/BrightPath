@@ -1,0 +1,70 @@
+<header>
+  <div class="logo">BrightPath</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<footer>
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+</footer>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Basic page setup -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | BrightPath</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Website Header -->
+<header>
+<div class="logo">BrightPath</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="programmes.html">Programmes</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="donate.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- Main page content -->
+<main>
+<section>
+<h1>About BrightPath</h1>
+<img src="images/about.jpg" alt="Community outreach session">
+<p>BrightPath was established to uplift disadvantaged communities through education and empowerment programmes.</p>
+
+<h2>Our Vision</h2>
+<img src="images/team.jpg" alt="Youth development programme">
+<p>A society where every young person has access to the support and resources needed for success.</p>
+
+<h2>Our Team</h2>
+<img src="images/team.jpg" alt="BrightPath volunteer team">
+<p>Our staff and volunteers work tirelessly to support families, youth and community members.</p>
+</section>
+</main>
+
+<!-- Footer -->
+<footer>
+<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+</footer>
+
+</body>
+</html>
