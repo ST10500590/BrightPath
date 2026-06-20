@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<!--
+  BrightPath Community Outreach Centre — XML Sitemap
+  https://www.brightpath.org.za/sitemap.xml
+  Generated: 2026-06-19
+  Submit to: Google Search Console, Bing Webmaster Tools
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ── HOME ───────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/index.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-za"
+                href="https://www.brightpath.org.za/index.html"/>
+  </url>
+
+  <!-- ── ABOUT ──────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/about.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── PROGRAMMES ─────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/programmes.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ── EVENTS ─────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/events.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ── GALLERY ────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/gallery.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/bright1/800/600</image:loc>
+      <image:caption>Youth Skills Training Workshop – BrightPath</image:caption>
+      <image:title>BrightPath Youth Skills Training</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/bright2/800/600</image:loc>
+      <image:caption>Community Food Drive 2025 – BrightPath</image:caption>
+      <image:title>BrightPath Community Food Drive</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/bright3/800/600</image:loc>
+      <image:caption>Leadership Camp Activities – BrightPath</image:caption>
+      <image:title>BrightPath Leadership Camp</image:title>
+    </image:image>
+  </url>
+
+
+  <!-- ── ENQUIRY ───────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/enquiry.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── DONATE ─────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/donate.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── VOLUNTEER ──────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/volunteer.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ── CONTACT ────────────────────────────────── -->
+  <url>
+    <loc>https://www.brightpath.org.za/contact.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

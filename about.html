@@ -1,54 +1,275 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Basic page setup -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us | BrightPath</title>
-<link rel="stylesheet" href="css/style.css">
+  <!-- ═══════════════════════════════════════
+       BASIC META
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TITLE & DESCRIPTION
+  ═══════════════════════════════════════ -->
+  <title>About BrightPath | Youth Development & Community Outreach, Soweto</title>
+  <meta name="description" content="Learn about BrightPath's mission to uplift disadvantaged communities through free education and empowerment programmes in Soweto, Johannesburg, since 2018.">
+  <meta name="keywords" content="about BrightPath, community outreach organisation Johannesburg, youth development NGO South Africa, non-profit Soweto, BrightPath mission vision">
+  <meta name="author" content="BrightPath Community Outreach Centre">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.brightpath.org.za/about.html">
+
+  <!-- ═══════════════════════════════════════
+       SEO: OPEN GRAPH (Facebook / LinkedIn)
+  ═══════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About BrightPath | Youth Development & Community Outreach, Soweto">
+  <meta property="og:description" content="Learn about BrightPath's mission to uplift disadvantaged communities through free education and empowerment programmes in Soweto, Johannesburg, since 2018.">
+  <meta property="og:url" content="https://www.brightpath.org.za/about.html">
+  <meta property="og:site_name" content="BrightPath Community Outreach Centre">
+  <meta property="og:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TWITTER CARD
+  ═══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@brightpathsa">
+  <meta name="twitter:title" content="About BrightPath | Youth Development & Community Outreach, Soweto">
+  <meta name="twitter:description" content="Learn about BrightPath's mission to uplift disadvantaged communities through free education and empowerment programmes in Soweto, Johannesburg, since 2018.">
+  <meta name="twitter:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+
+  <!-- ═══════════════════════════════════════
+       LOCAL SEO & GEO
+  ═══════════════════════════════════════ -->
+  <meta name="geo.region" content="ZA-GP">
+  <meta name="geo.placename" content="Soweto, Johannesburg">
+  <meta name="geo.position" content="-26.2631;27.8587">
+  <meta name="ICBM" content="-26.2631, 27.8587">
+
+  <!-- ═══════════════════════════════════════
+       SECURITY HEADERS (meta fallback)
+  ═══════════════════════════════════════ -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://code.jquery.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' https://images.unsplash.com https://picsum.photos https://*.tile.openstreetmap.org data:; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ═══════════════════════════════════════
+       PERFORMANCE: PRECONNECT & DNS-PREFETCH
+  ═══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="dns-prefetch" href="https://code.jquery.com">
+  <link rel="preconnect" href="https://picsum.photos">
+  <link rel="dns-prefetch" href="https://picsum.photos">
+
+  <!-- ═══════════════════════════════════════
+       FAVICON
+  ═══════════════════════════════════════ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+
+  <!-- ═══════════════════════════════════════
+       STYLESHEET (deferred non-critical fonts if any)
+  ═══════════════════════════════════════ -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ═══════════════════════════════════════
+       SCHEMA.ORG STRUCTURED DATA
+  ═══════════════════════════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About BrightPath",
+  "url": "https://www.brightpath.org.za/about.html",
+  "description": "BrightPath was founded in 2018 to uplift disadvantaged communities through free education and empowerment programmes.",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.brightpath.org.za/index.html"},
+      {"@type":"ListItem","position":2,"name":"About","item":"https://www.brightpath.org.za/about.html"}
+    ]
+  }
+}
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
 
-<!-- Website Header -->
-<header>
-<div class="logo">BrightPath</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="programmes.html">Programmes</a></li>
-<li><a href="events.html">Events</a></li>
-<li><a href="donate.html">Donate</a></li>
-<li><a href="volunteer.html">Volunteer</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+<a href="#main-content" id="skip-to-content" style="position:absolute;left:-9999px;top:4px;z-index:9999;background:#6a0dad;color:white;padding:8px 16px;border-radius:4px;font-weight:bold;text-decoration:none" onfocus="this.style.left='4px'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<header role="banner">
+  <div class="header-inner">
+  <a href="index.html" class="logo-wrap" aria-label="BrightPath Home">
+      <img src="images/Bright_path_logo.png"
+           alt="BrightPath Community Outreach Centre"
+           class="site-logo">
+    </a>
+    <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
 </header>
 
-<!-- Main page content -->
-<main>
-<section>
-<h1>About BrightPath</h1>
-<img src="images/about.jpg" alt="Community outreach session">
-<p>BrightPath was established to uplift disadvantaged communities through education and empowerment programmes.</p>
+<main id="main-content">
 
-<h2>Our Vision</h2>
-<img src="images/youth.jpg" alt="Youth development programme">
-<p>A society where every young person has access to the support and resources needed for success.</p>
+  <section class="reveal">
+    <h1>About BrightPath</h1>
+    <img src="images/about.jpg" alt="Community outreach session run by BrightPath in Soweto" loading="lazy" class="content-img focus-top">
+    <p>BrightPath was established to uplift disadvantaged communities through education and
+       empowerment programmes. We believe that every person deserves an equal opportunity to thrive.</p>
+  </section>
 
-<h2>Our Team</h2>
-<img src="images/volunteer.jpg" alt="BrightPath volunteer team">
-<p>Our staff and volunteers work tirelessly to support families, youth and community members.</p>
-</section>
+  <!-- TABBED: Vision / History / Values -->
+  <section class="reveal">
+    <h2>Who We Are</h2>
+    <div class="tabs-wrapper">
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="tab-vision">Our Vision</button>
+        <button class="tab-btn" data-tab="tab-history">Our History</button>
+        <button class="tab-btn" data-tab="tab-values">Our Values</button>
+      </div>
+
+      <div id="tab-vision" class="tab-content active">
+        <img src="https://images.unsplash.com/flagged/photo-1555251255-e9a095d6eb9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Smiling youth representing BrightPath's vision for a brighter future" loading="lazy" class="content-img focus-top" style="object-position:center 20%">
+        <p>A society where every young person has access to the support and resources needed
+           for success — regardless of their background or circumstances. We envision thriving
+           communities where talent is never wasted due to lack of opportunity.</p>
+      </div>
+
+      <div id="tab-history" class="tab-content">
+        <img src="https://images.unsplash.com/photo-1515657834497-26509e295154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Vibrant community celebration representing BrightPath's roots in Johannesburg" loading="lazy" class="content-img focus-top" style="object-position:center 25%">
+        <p>BrightPath was founded in 2018 by a group of educators and social workers who saw
+           first-hand how lack of resources was limiting young people's potential. Starting with
+           just a homework club and 12 students, we have grown to serve over 1,200 youth and
+           families each year across multiple programmes.</p>
+      </div>
+
+      <div id="tab-values" class="tab-content">
+        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Team stacking hands together representing BrightPath's core values of unity and collaboration" loading="lazy" class="content-img focus-center">
+        <ul>
+          <li><strong>Dignity</strong> — Every person is treated with respect and compassion.</li>
+          <li><strong>Equity</strong> — We address the root causes of inequality.</li>
+          <li><strong>Community</strong> — We work with, not just for, our communities.</li>
+          <li><strong>Excellence</strong> — We hold ourselves to the highest standards of impact.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM CARDS -->
+  <section class="reveal">
+    <h2>Meet the Team</h2>
+    <img src="images/volunteer.jpg" alt="BrightPath volunteer team" loading="lazy" class="content-img focus-top">
+    <p>Our dedicated staff and volunteers work tirelessly to create meaningful and lasting impact.</p>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-avatar">NM</div>
+        <p class="team-name">Nomsa Mthembu</p>
+        <p class="team-role">Executive Director</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">TN</div>
+        <p class="team-name">Themba Nkosi</p>
+        <p class="team-role">Programme Manager</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">LM</div>
+        <p class="team-name">Lerato Molefe</p>
+        <p class="team-role">Wellness Coordinator</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">SD</div>
+        <p class="team-name">Sipho Dlamini</p>
+        <p class="team-role">Youth Skills Trainer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION -->
+  <section class="reveal">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion-group">
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Who can access BrightPath programmes?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Our programmes are open to youth aged 8–30 and families living in disadvantaged
+             communities in and around Soweto, Johannesburg. Some online programmes are open
+             nationally. All services are free of charge.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          How is BrightPath funded?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>We are funded through a combination of individual donations, corporate sponsorships,
+             government grants and fundraising events. Every rand raised goes directly to
+             community programmes — we are a registered non-profit organisation.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Can I volunteer remotely?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Yes! We welcome remote volunteers for online tutoring, graphic design, social media,
+             grant writing and more. Fill in our volunteer registration form and indicate your
+             preference for remote work.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          How do I register for a programme?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Visit our <a href="programmes.html" style="color:#6a0dad">Programmes page</a> to see
+             what is currently available. You can register by calling us on +27 11 555 1234 or
+             emailing <a href="mailto:info@brightpath.org.za" style="color:#6a0dad">info@brightpath.org.za</a>.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
 </main>
 
-<!-- Footer -->
-<footer>
-<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+<footer role="contentinfo">
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
 
+<button id="back-to-top" title="Back to top">&#8679;</button>
+<div id="toast"></div>
+
+<script src="js/main.js" defer></script>
+  <script src="js/seo.js" defer></script>
 </body>
 </html>

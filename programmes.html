@@ -1,57 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Page setup -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programmes | BrightPath</title>
-<link rel="stylesheet" href="css/style.css">
+  <!-- ═══════════════════════════════════════
+       BASIC META
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TITLE & DESCRIPTION
+  ═══════════════════════════════════════ -->
+  <title>Programmes | Free Skills Training, Tutoring & Wellness – BrightPath</title>
+  <meta name="description" content="BrightPath offers free youth skills training, after-school homework support and community wellness workshops in Johannesburg. Register for a programme today.">
+  <meta name="keywords" content="free tutoring Johannesburg, youth skills training Soweto, homework support South Africa, wellness workshops community, digital literacy training Johannesburg">
+  <meta name="author" content="BrightPath Community Outreach Centre">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.brightpath.org.za/programmes.html">
+
+  <!-- ═══════════════════════════════════════
+       SEO: OPEN GRAPH (Facebook / LinkedIn)
+  ═══════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Programmes | Free Skills Training, Tutoring & Wellness – BrightPath">
+  <meta property="og:description" content="BrightPath offers free youth skills training, after-school homework support and community wellness workshops in Johannesburg. Register for a programme today.">
+  <meta property="og:url" content="https://www.brightpath.org.za/programmes.html">
+  <meta property="og:site_name" content="BrightPath Community Outreach Centre">
+  <meta property="og:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TWITTER CARD
+  ═══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@brightpathsa">
+  <meta name="twitter:title" content="Programmes | Free Skills Training, Tutoring & Wellness – BrightPath">
+  <meta name="twitter:description" content="BrightPath offers free youth skills training, after-school homework support and community wellness workshops in Johannesburg. Register for a programme today.">
+  <meta name="twitter:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+
+  <!-- ═══════════════════════════════════════
+       LOCAL SEO & GEO
+  ═══════════════════════════════════════ -->
+  <meta name="geo.region" content="ZA-GP">
+  <meta name="geo.placename" content="Soweto, Johannesburg">
+  <meta name="geo.position" content="-26.2631;27.8587">
+  <meta name="ICBM" content="-26.2631, 27.8587">
+
+  <!-- ═══════════════════════════════════════
+       SECURITY HEADERS (meta fallback)
+  ═══════════════════════════════════════ -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://code.jquery.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' https://images.unsplash.com https://picsum.photos https://*.tile.openstreetmap.org data:; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ═══════════════════════════════════════
+       PERFORMANCE: PRECONNECT & DNS-PREFETCH
+  ═══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="dns-prefetch" href="https://code.jquery.com">
+  <link rel="preconnect" href="https://picsum.photos">
+  <link rel="dns-prefetch" href="https://picsum.photos">
+
+  <!-- ═══════════════════════════════════════
+       FAVICON
+  ═══════════════════════════════════════ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+
+  <!-- ═══════════════════════════════════════
+       STYLESHEET (deferred non-critical fonts if any)
+  ═══════════════════════════════════════ -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ═══════════════════════════════════════
+       SCHEMA.ORG STRUCTURED DATA
+  ═══════════════════════════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "BrightPath Programmes",
+  "url": "https://www.brightpath.org.za/programmes.html",
+  "itemListElement": [
+    {
+      "@type": "Course",
+      "position": 1,
+      "name": "Youth Skills Training",
+      "description": "CV writing, interview preparation and digital literacy training for youth aged 16-30.",
+      "provider": {"@type":"Organization","name":"BrightPath Community Outreach Centre"},
+      "offers": {"@type":"Offer","price":"0","priceCurrency":"ZAR","availability":"https://schema.org/InStock"}
+    },
+    {
+      "@type": "Course",
+      "position": 2,
+      "name": "Homework Support",
+      "description": "After-school tutoring for Grade 4-12 learners in Johannesburg.",
+      "provider": {"@type":"Organization","name":"BrightPath Community Outreach Centre"},
+      "offers": {"@type":"Offer","price":"0","priceCurrency":"ZAR","availability":"https://schema.org/InStock"}
+    },
+    {
+      "@type": "Course",
+      "position": 3,
+      "name": "Wellness Support",
+      "description": "Community wellness workshops and counselling referrals for families.",
+      "provider": {"@type":"Organization","name":"BrightPath Community Outreach Centre"},
+      "offers": {"@type":"Offer","price":"0","priceCurrency":"ZAR","availability":"https://schema.org/InStock"}
+    }
+  ]
+}
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
 
-<!-- Header section -->
-<header>
-<div class="logo">BrightPath</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="programmes.html">Programmes</a></li>
-<li><a href="events.html">Events</a></li>
-<li><a href="donate.html">Donate</a></li>
-<li><a href="volunteer.html">Volunteer</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+<a href="#main-content" id="skip-to-content" style="position:absolute;left:-9999px;top:4px;z-index:9999;background:#6a0dad;color:white;padding:8px 16px;border-radius:4px;font-weight:bold;text-decoration:none" onfocus="this.style.left='4px'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<header role="banner">
+  <div class="header-inner">
+  <a href="index.html" class="logo-wrap" aria-label="BrightPath Home">
+      <img src="images/Bright_path_logo.png"
+           alt="BrightPath Community Outreach Centre"
+           class="site-logo">
+    </a>
+    <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html" class="active">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
 </header>
 
-<!-- Main programmes content -->
-<main>
-<h1>Our Programmes</h1>
+<main id="main-content">
 
-<article>
-<h2>Youth Skills Training</h2>
-<img src="images/youthskills.jpg" alt="Youth skills workshop">
-<p>We provide CV writing, interview preparation and digital literacy training.</p>
-</article>
+  <h1 class="reveal">Our Programmes</h1>
+  <p class="reveal">All BrightPath programmes are free of charge to qualifying community members.
+     Click on any programme to find out more.</p>
 
-<article>
-<h2>Homework Support</h2>
-<img src="images/about.jpg" alt="Homework support programme">
-<p>After-school tutoring and mentoring programmes help students improve academically.</p>
-</article>
+  <!-- TABBED PROGRAMMES -->
+  <section class="reveal">
+    <div class="tabs-wrapper">
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="prog-education">&#127979; Education</button>
+        <button class="tab-btn" data-tab="prog-wellness">&#129505; Wellness</button>
+        <button class="tab-btn" data-tab="prog-community">&#127968; Community</button>
+      </div>
 
-<article>
-<h2>Wellness Support</h2>
-<img src="images/wellness.jpg" alt="Community wellness support">
-<p>Community wellness workshops and counselling referrals are offered to families.</p>
-</article>
+      <!-- Education Tab -->
+      <div id="prog-education" class="tab-content active">
+        <article style="border-left:none;box-shadow:none;padding:0">
+          <span class="prog-icon">&#128218;</span>
+          <h2>Youth Skills Training</h2>
+          <img src="images/youthskills.jpg" alt="Youth skills training workshop at BrightPath" loading="lazy" class="content-img focus-center">
+          <p>We provide CV writing, interview preparation and digital literacy training to
+             equip young people for the workforce.</p>
+          <ul>
+            <li>CV and cover letter workshops</li>
+            <li>Interview simulation sessions</li>
+            <li>Microsoft Office and Google Workspace training</li>
+            <li>Internet safety and online job seeking</li>
+          </ul>
+          <button data-modal="modal-skills">Learn More &amp; Register</button>
+        </article>
+
+        <hr style="border:none;border-top:1px solid #e0d0f0;margin:20px 0">
+
+        <article style="border-left:none;box-shadow:none;padding:0">
+          <span class="prog-icon">&#128221;</span>
+          <h2>Homework Support</h2>
+          <img src="images/about.jpg" alt="Homework support programme session at BrightPath" loading="lazy" class="content-img focus-top">
+          <p>After-school tutoring and mentoring programmes help students improve academically
+             and build confidence.</p>
+          <ul>
+            <li>Gr 4–12 tutoring in core subjects</li>
+            <li>One-on-one and group mentoring</li>
+            <li>Study skills and exam preparation</li>
+          </ul>
+          <button data-modal="modal-homework">Learn More &amp; Register</button>
+        </article>
+      </div>
+
+      <!-- Wellness Tab -->
+      <div id="prog-wellness" class="tab-content">
+        <article style="border-left:none;box-shadow:none;padding:0">
+          <span class="prog-icon">&#129333;</span>
+          <h2>Wellness Support</h2>
+          <img src="images/wellness.jpg" alt="Community wellness support workshop run by BrightPath" loading="lazy" class="content-img focus-top">
+          <p>Community wellness workshops and counselling referrals are offered to families
+             in need of mental and emotional support.</p>
+          <ul>
+            <li>Mental health awareness workshops</li>
+            <li>Stress management and coping strategies</li>
+            <li>Referrals to licensed counsellors</li>
+            <li>Support groups for youth and parents</li>
+          </ul>
+          <button data-modal="modal-wellness">Learn More &amp; Register</button>
+        </article>
+      </div>
+
+      <!-- Community Tab -->
+      <div id="prog-community" class="tab-content">
+        <article style="border-left:none;box-shadow:none;padding:0">
+          <span class="prog-icon">&#127968;</span>
+          <h2>Community Empowerment</h2>
+          <p>We run initiatives that bring communities together and build local leadership capacity.</p>
+          <ul>
+            <li>Youth leadership development</li>
+            <li>Community food drives</li>
+            <li>Parent and family support circles</li>
+            <li>Charity events and fundraisers</li>
+          </ul>
+          <button data-modal="modal-community">Learn More &amp; Register</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
 </main>
 
-<!-- Footer section -->
-<footer>
-<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+<!-- Modals for each programme -->
+<div class="modal-overlay" id="modal-skills">
+  <div class="modal-box">
+    <button class="modal-close">&times;</button>
+    <span class="modal-badge">Education</span>
+    <h2 style="color:#6a0dad;margin-bottom:10px">Youth Skills Training</h2>
+    <p>Our skills training runs every Saturday, 09:00–13:00 at the BrightPath Centre. No previous experience needed.</p>
+    <p><strong>Who:</strong> Youth aged 16–30</p>
+    <p><strong>Duration:</strong> 6-week programme</p>
+    <p><strong>Cost:</strong> Free</p>
+    <a href="contact.html" class="btn btn-purple" style="display:inline-block;margin-top:10px">Register via Contact Form</a>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-homework">
+  <div class="modal-box">
+    <button class="modal-close">&times;</button>
+    <span class="modal-badge">Education</span>
+    <h2 style="color:#6a0dad;margin-bottom:10px">Homework Support</h2>
+    <p>After-school sessions run Monday to Thursday, 14:00–17:00. Volunteer tutors available for Maths, Science, English and more.</p>
+    <p><strong>Who:</strong> Grade 4–12 learners</p>
+    <p><strong>Cost:</strong> Free</p>
+    <a href="contact.html" class="btn btn-purple" style="display:inline-block;margin-top:10px">Enrol Your Child</a>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-wellness">
+  <div class="modal-box">
+    <button class="modal-close">&times;</button>
+    <span class="modal-badge">Wellness</span>
+    <h2 style="color:#6a0dad;margin-bottom:10px">Wellness Support</h2>
+    <p>Monthly workshops held on the first Saturday of each month. All sessions are confidential and non-judgmental.</p>
+    <p><strong>Who:</strong> Open to all community members</p>
+    <p><strong>Cost:</strong> Free</p>
+    <a href="contact.html" class="btn btn-purple" style="display:inline-block;margin-top:10px">Contact Us to Join</a>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-community">
+  <div class="modal-box">
+    <button class="modal-close">&times;</button>
+    <span class="modal-badge">Community</span>
+    <h2 style="color:#6a0dad;margin-bottom:10px">Community Empowerment</h2>
+    <p>Check our <a href="events.html" style="color:#6a0dad">Events page</a> for upcoming community activities. Volunteers are always welcome to help organise and run these events.</p>
+    <a href="volunteer.html" class="btn btn-purple" style="display:inline-block;margin-top:10px">Volunteer With Us</a>
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
 
+<button id="back-to-top" title="Back to top">&#8679;</button>
+<div id="toast"></div>
+
+<script src="js/main.js" defer></script>
+  <script src="js/seo.js" defer></script>
 </body>
 </html>

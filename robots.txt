@@ -1,0 +1,47 @@
+# ============================================================
+#  BrightPath Community Outreach Centre — robots.txt
+#  https://www.brightpath.org.za/robots.txt
+#  Updated: 2026-06-19
+# ============================================================
+
+# Allow all well-behaved crawlers
+User-agent: *
+Allow: /
+
+# Disallow any admin or private directories (none currently,
+# but defined here as best practice for future expansion)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Prevent crawling of query strings used for tracking
+Disallow: /*?utm_*
+Disallow: /*?ref=*
+Disallow: /*?fbclid=*
+
+# Allow Google Image Bot to index gallery images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /gallery.html
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Block known malicious or scraping bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://www.brightpath.org.za/sitemap.xml

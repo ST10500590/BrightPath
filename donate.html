@@ -1,52 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Donate page setup -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donate | BrightPath</title>
-<link rel="stylesheet" href="css/style.css">
+  <!-- ═══════════════════════════════════════
+       BASIC META
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TITLE & DESCRIPTION
+  ═══════════════════════════════════════ -->
+  <title>Donate to BrightPath | Support Free Youth Education in South Africa</title>
+  <meta name="description" content="Your donation to BrightPath funds free education, wellness support and community programmes for disadvantaged youth in Johannesburg, South Africa. Every rand helps.">
+  <meta name="keywords" content="donate to charity South Africa, support youth education Johannesburg, non-profit donation Soweto, fund community programmes Gauteng, charitable giving South Africa">
+  <meta name="author" content="BrightPath Community Outreach Centre">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.brightpath.org.za/donate.html">
+
+  <!-- ═══════════════════════════════════════
+       SEO: OPEN GRAPH (Facebook / LinkedIn)
+  ═══════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Donate to BrightPath | Support Free Youth Education in South Africa">
+  <meta property="og:description" content="Your donation to BrightPath funds free education, wellness support and community programmes for disadvantaged youth in Johannesburg, South Africa. Every rand helps.">
+  <meta property="og:url" content="https://www.brightpath.org.za/donate.html">
+  <meta property="og:site_name" content="BrightPath Community Outreach Centre">
+  <meta property="og:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TWITTER CARD
+  ═══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@brightpathsa">
+  <meta name="twitter:title" content="Donate to BrightPath | Support Free Youth Education in South Africa">
+  <meta name="twitter:description" content="Your donation to BrightPath funds free education, wellness support and community programmes for disadvantaged youth in Johannesburg, South Africa. Every rand helps.">
+  <meta name="twitter:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+
+  <!-- ═══════════════════════════════════════
+       LOCAL SEO & GEO
+  ═══════════════════════════════════════ -->
+  <meta name="geo.region" content="ZA-GP">
+  <meta name="geo.placename" content="Soweto, Johannesburg">
+  <meta name="geo.position" content="-26.2631;27.8587">
+  <meta name="ICBM" content="-26.2631, 27.8587">
+
+  <!-- ═══════════════════════════════════════
+       SECURITY HEADERS (meta fallback)
+  ═══════════════════════════════════════ -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://code.jquery.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' https://images.unsplash.com https://picsum.photos https://*.tile.openstreetmap.org data:; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ═══════════════════════════════════════
+       PERFORMANCE: PRECONNECT & DNS-PREFETCH
+  ═══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="dns-prefetch" href="https://code.jquery.com">
+  <link rel="preconnect" href="https://picsum.photos">
+  <link rel="dns-prefetch" href="https://picsum.photos">
+
+  <!-- ═══════════════════════════════════════
+       FAVICON
+  ═══════════════════════════════════════ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+
+  <!-- ═══════════════════════════════════════
+       STYLESHEET (deferred non-critical fonts if any)
+  ═══════════════════════════════════════ -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ═══════════════════════════════════════
+       SCHEMA.ORG STRUCTURED DATA
+  ═══════════════════════════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DonateAction",
+  "name": "Donate to BrightPath",
+  "description": "Support free education and community programmes for disadvantaged youth in Johannesburg.",
+  "recipient": {
+    "@type": "NGO",
+    "name": "BrightPath Community Outreach Centre",
+    "url": "https://www.brightpath.org.za"
+  }
+}
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
 
-<header>
-<div class="logo">BrightPath</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="programmes.html">Programmes</a></li>
-<li><a href="events.html">Events</a></li>
-<li><a href="donate.html">Donate</a></li>
-<li><a href="volunteer.html">Volunteer</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+<a href="#main-content" id="skip-to-content" style="position:absolute;left:-9999px;top:4px;z-index:9999;background:#6a0dad;color:white;padding:8px 16px;border-radius:4px;font-weight:bold;text-decoration:none" onfocus="this.style.left='4px'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<header role="banner">
+  <div class="header-inner">
+  <a href="index.html" class="logo-wrap" aria-label="BrightPath Home">
+      <img src="images/Bright_path_logo.png"
+           alt="BrightPath Community Outreach Centre"
+           class="site-logo">
+    </a>
+    <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="donate.html" class="active">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
 </header>
 
-<main>
-<h1>Support BrightPath</h1>
-<img src="images/donate.jpg" alt="Community donations">
-<p>Your donations help us provide support programmes and educational opportunities.</p>
+<main id="main-content">
+  <section class="reveal">
+    <h1>Support BrightPath</h1>
+    <img src="images/donate.jpg" alt="Community donations — supporting BrightPath programmes" loading="lazy" class="content-img focus-center">
+    <p>Your donations help us provide support programmes and educational opportunities
+       to those who need them most. Every rand makes a difference.</p>
 
-<!-- Donation form -->
-<form>
-<label>Full Name</label>
-<input type="text" placeholder="Enter your name">
+    <!-- Quick-select amounts -->
+    <div id="amount-presets" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:5px">
+      <button type="button" class="preset-btn btn" style="background:#f0e6ff;color:#6a0dad;padding:8px 20px;border-radius:20px;margin-top:0"
+              data-amount="50">R50</button>
+      <button type="button" class="preset-btn btn" style="background:#f0e6ff;color:#6a0dad;padding:8px 20px;border-radius:20px;margin-top:0"
+              data-amount="100">R100</button>
+      <button type="button" class="preset-btn btn" style="background:#f0e6ff;color:#6a0dad;padding:8px 20px;border-radius:20px;margin-top:0"
+              data-amount="250">R250</button>
+      <button type="button" class="preset-btn btn" style="background:#f0e6ff;color:#6a0dad;padding:8px 20px;border-radius:20px;margin-top:0"
+              data-amount="500">R500</button>
+    </div>
 
-<label>Email Address</label>
-<input type="email" placeholder="Enter your email">
+    <form class="validated-form" data-success="Thank you for your generous donation!">
+      <label for="donate-name">Full Name</label>
+      <input type="text" id="donate-name" name="name" placeholder="Enter your name" required>
+      <span class="form-error">Please enter your name.</span>
 
-<label>Donation Amount (R)</label>
-<input type="number" placeholder="Enter amount">
+      <label for="donate-email">Email Address</label>
+      <input type="email" id="donate-email" name="email" placeholder="Enter your email" required>
+      <span class="form-error">Please enter a valid email address.</span>
 
-<button type="submit">Donate Securely</button>
-</form>
+      <label for="donate-amount">Donation Amount (R)</label>
+      <input type="number" id="donate-amount" name="amount" placeholder="Enter amount" min="1" required>
+      <span class="form-error">Please enter a donation amount.</span>
+
+      <button type="submit">&#128274; Donate Securely</button>
+    </form>
+  </section>
+
+  <!-- Impact modal trigger -->
+  <section class="reveal" style="text-align:center">
+    <h2>See the Impact</h2>
+    <p>Wondering where your donation goes? See a breakdown of how funds are used.</p>
+    <button data-modal="impact-modal">View Impact Breakdown</button>
+  </section>
 </main>
 
-<footer>
-<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+<!-- Impact Modal -->
+<div class="modal-overlay" id="impact-modal">
+  <div class="modal-box">
+    <button class="modal-close">&times;</button>
+    <span class="modal-badge">Transparency</span>
+    <h2 style="color:#6a0dad;margin-bottom:12px">How Your Donation is Used</h2>
+    <ul>
+      <li>&#128218; <strong>45%</strong> — Education &amp; Skills programmes</li>
+      <li>&#129505; <strong>25%</strong> — Wellness &amp; counselling support</li>
+      <li>&#127968; <strong>20%</strong> — Community events &amp; food drives</li>
+      <li>&#128188; <strong>10%</strong> — Administration &amp; operations</li>
+    </ul>
+    <p style="margin-top:12px;font-size:14px;color:#888">BrightPath is a registered non-profit. Donations may be tax-deductible.</p>
+  </div>
+</div>
+
+<footer role="contentinfo">
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
 
+<button id="back-to-top" title="Back to top">&#8679;</button>
+<div id="toast"></div>
+
+<script src="js/main.js" defer></script>
+<script>
+$(function () {
+  // Quick-select preset amounts
+  $('.preset-btn').on('click', function () {
+    $('.preset-btn').css({ background: '#f0e6ff', color: '#6a0dad' });
+    $(this).css({ background: '#8a2be2', color: 'white' });
+    $('#donate-amount').val($(this).data('amount'));
+  });
+});
+</script>
+  <script src="js/seo.js" defer></script>
 </body>
 </html>

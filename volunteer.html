@@ -1,52 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Volunteer | BrightPath</title>
-<link rel="stylesheet" href="css/style.css">
+  <!-- ═══════════════════════════════════════
+       BASIC META
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TITLE & DESCRIPTION
+  ═══════════════════════════════════════ -->
+  <title>Volunteer with BrightPath | Make a Difference in Johannesburg, South Africa</title>
+  <meta name="description" content="Join BrightPath's team of dedicated volunteers in Johannesburg. Tutoring, digital training, wellness facilitation and events roles available. Register to volunteer today.">
+  <meta name="keywords" content="volunteer Johannesburg, volunteer opportunities South Africa, community volunteer Soweto, NGO volunteer Gauteng, tutor volunteer Johannesburg">
+  <meta name="author" content="BrightPath Community Outreach Centre">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.brightpath.org.za/volunteer.html">
+
+  <!-- ═══════════════════════════════════════
+       SEO: OPEN GRAPH (Facebook / LinkedIn)
+  ═══════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Volunteer with BrightPath | Make a Difference in Johannesburg, South Africa">
+  <meta property="og:description" content="Join BrightPath's team of dedicated volunteers in Johannesburg. Tutoring, digital training, wellness facilitation and events roles available. Register to volunteer today.">
+  <meta property="og:url" content="https://www.brightpath.org.za/volunteer.html">
+  <meta property="og:site_name" content="BrightPath Community Outreach Centre">
+  <meta property="og:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- ═══════════════════════════════════════
+       SEO: TWITTER CARD
+  ═══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@brightpathsa">
+  <meta name="twitter:title" content="Volunteer with BrightPath | Make a Difference in Johannesburg, South Africa">
+  <meta name="twitter:description" content="Join BrightPath's team of dedicated volunteers in Johannesburg. Tutoring, digital training, wellness facilitation and events roles available. Register to volunteer today.">
+  <meta name="twitter:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+
+  <!-- ═══════════════════════════════════════
+       LOCAL SEO & GEO
+  ═══════════════════════════════════════ -->
+  <meta name="geo.region" content="ZA-GP">
+  <meta name="geo.placename" content="Soweto, Johannesburg">
+  <meta name="geo.position" content="-26.2631;27.8587">
+  <meta name="ICBM" content="-26.2631, 27.8587">
+
+  <!-- ═══════════════════════════════════════
+       SECURITY HEADERS (meta fallback)
+  ═══════════════════════════════════════ -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://code.jquery.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' https://images.unsplash.com https://picsum.photos https://*.tile.openstreetmap.org data:; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ═══════════════════════════════════════
+       PERFORMANCE: PRECONNECT & DNS-PREFETCH
+  ═══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="dns-prefetch" href="https://code.jquery.com">
+  <link rel="preconnect" href="https://picsum.photos">
+  <link rel="dns-prefetch" href="https://picsum.photos">
+
+  <!-- ═══════════════════════════════════════
+       FAVICON
+  ═══════════════════════════════════════ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+
+  <!-- ═══════════════════════════════════════
+       STYLESHEET (deferred non-critical fonts if any)
+  ═══════════════════════════════════════ -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ═══════════════════════════════════════
+       SCHEMA.ORG STRUCTURED DATA
+  ═══════════════════════════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VolunteerAction",
+  "name": "Volunteer with BrightPath",
+  "description": "Join BrightPath as a volunteer in Johannesburg. Roles in tutoring, digital skills, wellness and community events.",
+  "agent": {"@type":"Organization","name":"BrightPath Community Outreach Centre"},
+  "location": {"@type":"Place","name":"Soweto, Johannesburg","address":{"@type":"PostalAddress","addressLocality":"Soweto","addressRegion":"Gauteng","addressCountry":"ZA"}}
+}
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
 
-<!-- Header section -->
-<header>
-<div class="logo">BrightPath</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="programmes.html">Programmes</a></li>
-<li><a href="events.html">Events</a></li>
-<li><a href="donate.html">Donate</a></li>
-<li><a href="volunteer.html">Volunteer</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+<a href="#main-content" id="skip-to-content" style="position:absolute;left:-9999px;top:4px;z-index:9999;background:#6a0dad;color:white;padding:8px 16px;border-radius:4px;font-weight:bold;text-decoration:none" onfocus="this.style.left='4px'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<header role="banner">
+  <div class="header-inner">
+  <a href="index.html" class="logo-wrap" aria-label="BrightPath Home">
+      <img src="images/Bright_path_logo.png"
+           alt="BrightPath Community Outreach Centre"
+           class="site-logo">
+    </a>
+    <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html" class="active">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
 </header>
 
-<main>
-<h1>Volunteer Registration</h1>
-<img src="images/volunteer.jpg" alt="Volunteer registration">
-<p>Join our volunteer team and make a difference in the community.</p>
+<main id="main-content">
 
-<!-- Volunteer form -->
-<form>
-<label>Full Name</label>
-<input type="text" placeholder="Enter your name">
+  <section class="reveal">
+    <h1>Volunteer Registration</h1>
+    <img src="images/volunteer.jpg" alt="Volunteer registration — join BrightPath's team" loading="lazy" class="content-img focus-top">
+    <p>Join our volunteer team and make a difference in the community.
+       Whether you have a few hours a month or a few days a week, we have a role for you.</p>
+  </section>
 
-<label>Email Address</label>
-<input type="email" placeholder="Enter your email">
+  <!-- Volunteer roles accordion -->
+  <section class="reveal">
+    <h2>Available Volunteer Roles</h2>
+    <div class="accordion-group">
 
-<label>Your Skills</label>
-<textarea placeholder="Describe your skills"></textarea>
+      <div class="accordion-item">
+        <button class="accordion-header">
+          &#127979; Tutor / Mentor
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Help learners from Grade 4–12 with their schoolwork. Sessions run Monday–Thursday,
+             14:00–17:00 at the centre. A teaching qualification is helpful but not required.</p>
+        </div>
+      </div>
 
-<button type="submit">Register</button>
-</form>
+      <div class="accordion-item">
+        <button class="accordion-header">
+          &#128187; Digital Skills Trainer
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Share your tech skills by training community members in basic computing, Microsoft
+             Office, internet use and social media literacy. Flexible scheduling available.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          &#129505; Wellness Facilitator
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Facilitate monthly wellness workshops. Ideal for social workers, psychologists,
+             nurses or wellness coaches. Remote facilitation also available via Zoom.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          &#127968; Events &amp; Community Coordinator
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p>Help plan and run community events like food drives, career expos and leadership
+             camps. Great for people with logistics, marketing or event management experience.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Registration form -->
+  <section class="reveal">
+    <h2>Register Now</h2>
+    <form class="validated-form" data-success="Thank you for registering! We will contact you soon.">
+      <label for="vol-name">Full Name</label>
+      <input type="text" id="vol-name" name="name" placeholder="Enter your name" required>
+      <span class="form-error">Please enter your name.</span>
+
+      <label for="vol-email">Email Address</label>
+      <input type="email" id="vol-email" name="email" placeholder="Enter your email" required>
+      <span class="form-error">Please enter a valid email address.</span>
+
+      <label for="vol-role">Preferred Role</label>
+      <select id="vol-role" name="role">
+        <option value="">— Select a role —</option>
+        <option>Tutor / Mentor</option>
+        <option>Digital Skills Trainer</option>
+        <option>Wellness Facilitator</option>
+        <option>Events &amp; Community Coordinator</option>
+        <option>Other (describe below)</option>
+      </select>
+
+      <label for="vol-skills">Your Skills &amp; Availability</label>
+      <textarea id="vol-skills" name="skills" placeholder="Describe your skills, experience and when you are available" required></textarea>
+      <span class="form-error">Please describe your skills.</span>
+
+      <button type="submit">&#9989; Register as Volunteer</button>
+    </form>
+  </section>
+
 </main>
 
-<footer>
-<p>&copy; 2026 BrightPath Community Outreach Centre</p>
+<footer role="contentinfo">
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="donate.html">Donate</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
 
+<button id="back-to-top" title="Back to top">&#8679;</button>
+<div id="toast"></div>
+
+<script src="js/main.js" defer></script>
+  <script src="js/seo.js" defer></script>
 </body>
 </html>

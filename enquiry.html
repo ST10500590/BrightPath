@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ═══════════════════════════════════════
+       BASIC META
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Make an Enquiry | BrightPath Community Outreach Centre</title>
+  <meta name="description" content="Enquire about BrightPath's free community programmes, volunteer opportunities or sponsorship packages in Johannesburg. Get personalised availability and cost information.">
+  <meta name="keywords" content="BrightPath enquiry, programme enquiry Johannesburg, volunteer application South Africa, sponsorship enquiry NGO Soweto">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.brightpath.org.za/enquiry.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Make an Enquiry | BrightPath">
+  <meta property="og:description" content="Enquire about BrightPath's free programmes, volunteer roles or sponsorship opportunities in Johannesburg.">
+  <meta property="og:url" content="https://www.brightpath.org.za/enquiry.html">
+  <meta property="og:site_name" content="BrightPath Community Outreach Centre">
+  <meta property="og:image" content="https://www.brightpath.org.za/images/og-image.jpg">
+
+  <!-- Security -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://code.jquery.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+  <!-- Geo / Local SEO -->
+  <meta name="geo.region" content="ZA-GP">
+  <meta name="geo.placename" content="Soweto, Johannesburg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%238a2be2'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="dns-prefetch" href="https://code.jquery.com">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "BrightPath Enquiry Form",
+    "url": "https://www.brightpath.org.za/enquiry.html",
+    "description": "Submit an enquiry about BrightPath programmes, volunteering or sponsorship.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://www.brightpath.org.za/index.html"},
+        {"@type":"ListItem","position":2,"name":"Enquiry","item":"https://www.brightpath.org.za/enquiry.html"}
+      ]
+    }
+  }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+</head>
+<body>
+
+<a href="#main-content" id="skip-to-content"
+   style="position:absolute;left:-9999px;top:4px;z-index:9999;background:#6a0dad;color:white;padding:8px 16px;border-radius:4px;font-weight:bold;text-decoration:none"
+   onfocus="this.style.left='4px'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<header role="banner">
+  <div class="header-inner">
+  <a href="index.html" class="logo-wrap" aria-label="BrightPath Home">
+      <img src="images/Bright_path_logo.png"
+           alt="BrightPath Community Outreach Centre"
+           class="site-logo">
+    </a>
+    <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="enquiry.html" class="active">Enquiry</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+<main id="main-content">
+<div style="max-width:1100px;margin:auto;padding:20px">
+
+  <!-- PAGE INTRO -->
+  <section class="reveal">
+    <h1>Make an Enquiry</h1>
+    <p>Use this form to enquire about our <strong>free community programmes</strong>,
+       <strong>volunteer opportunities</strong>, or <strong>sponsorship packages</strong>.
+       Once you submit, we will provide a personalised response with availability, costs and next steps.</p>
+    <p style="font-size:13px;color:#888">Fields marked <span class="required-star">*</span> are required.
+       All BrightPath programmes are free of charge for qualifying community members.</p>
+  </section>
+
+  <!-- RESPONSE AREA (hidden until submit) -->
+  <div id="enquiry-response" style="display:none"></div>
+
+  <!-- ENQUIRY FORM -->
+  <section class="reveal">
+    <h2>Enquiry Form</h2>
+
+    <form id="enquiry-form" action="#" method="post" novalidate aria-label="Enquiry form">
+
+      <!-- ── STEP 1: PERSONAL DETAILS ── -->
+      <fieldset style="border:none;padding:0;margin:0 0 24px 0">
+        <legend style="font-size:17px;font-weight:bold;color:#6a0dad;margin-bottom:14px;display:block">
+          &#128100; Step 1 — Your Details
+        </legend>
+
+        <label for="enq-name">Full Name <span class="required-star">*</span></label>
+        <input type="text" id="enq-name" name="name"
+               placeholder="e.g. Nomsa Dlamini"
+               minlength="2" maxlength="80" required
+               autocomplete="name" aria-describedby="enq-name-err">
+        <span class="form-error" id="enq-name-err" role="alert"></span>
+
+        <label for="enq-email" style="margin-top:14px">Email Address <span class="required-star">*</span></label>
+        <input type="email" id="enq-email" name="email"
+               placeholder="e.g. nomsa@email.com" required
+               autocomplete="email" aria-describedby="enq-email-err">
+        <span class="form-error" id="enq-email-err" role="alert"></span>
+        <span class="field-hint">We will use this to send your enquiry confirmation.</span>
+
+        <label for="enq-phone" style="margin-top:14px">Phone Number <span style="color:#888;font-weight:normal">(optional)</span></label>
+        <input type="tel" id="enq-phone" name="phone"
+               placeholder="e.g. 072 123 4567 or +27721234567"
+               autocomplete="tel" aria-describedby="enq-phone-err">
+        <span class="form-error" id="enq-phone-err" role="alert"></span>
+        <span class="field-hint">South African numbers only. Format: 0XX XXX XXXX or +27XXXXXXXXX.</span>
+      </fieldset>
+
+      <!-- ── STEP 2: ENQUIRY TYPE ── -->
+      <fieldset style="border:none;padding:0;margin:0 0 10px 0">
+        <legend style="font-size:17px;font-weight:bold;color:#6a0dad;margin-bottom:14px;display:block">
+          &#128203; Step 2 — Enquiry Type <span class="required-star">*</span>
+        </legend>
+
+        <!-- Visual card picker (syncs with hidden select) -->
+        <div class="enquiry-type-grid" role="group" aria-label="Select enquiry type">
+          <div class="enquiry-type-card" data-value="programme" tabindex="0" role="button" aria-pressed="false">
+            <span class="card-icon">&#127979;</span>
+            <span class="card-label">Programme</span>
+            <span class="card-desc">Homework, skills training, wellness &amp; more</span>
+          </div>
+          <div class="enquiry-type-card" data-value="volunteering" tabindex="0" role="button" aria-pressed="false">
+            <span class="card-icon">&#128101;</span>
+            <span class="card-label">Volunteering</span>
+            <span class="card-desc">Join our volunteer team</span>
+          </div>
+          <div class="enquiry-type-card" data-value="sponsorship" tabindex="0" role="button" aria-pressed="false">
+            <span class="card-icon">&#127981;</span>
+            <span class="card-label">Sponsorship</span>
+            <span class="card-desc">Corporate &amp; individual sponsors</span>
+          </div>
+        </div>
+
+        <!-- Hidden select (for form submission + JS validation) -->
+        <select id="enquiry-type" name="enquiry_type" required
+                style="position:absolute;opacity:0;pointer-events:none;height:0"
+                aria-hidden="true" tabindex="-1">
+          <option value="">-- Select --</option>
+          <option value="programme">Programme</option>
+          <option value="volunteering">Volunteering</option>
+          <option value="sponsorship">Sponsorship</option>
+        </select>
+        <span class="form-error" id="enquiry-type-err" role="alert"></span>
+      </fieldset>
+
+      <!-- ── DYNAMIC: PROGRAMME SECTION ── -->
+      <div class="dynamic-section" id="section-programme">
+        <h3>&#127979; Programme Enquiry Details</h3>
+
+        <label for="enq-programme">Which programme are you interested in? <span class="required-star">*</span></label>
+        <select id="enq-programme" name="programme" aria-describedby="enq-prog-err">
+          <option value="">— Select a programme —</option>
+          <option value="youth-skills">Youth Skills Training (CV writing, interview prep, digital literacy)</option>
+          <option value="homework">Homework Support (after-school tutoring, Gr 4–12)</option>
+          <option value="wellness">Wellness Support (workshops, counselling referrals)</option>
+          <option value="digital">Digital Literacy Bootcamp (full-day, adults 18+)</option>
+          <option value="leadership">Youth Leadership Camp (residential, 3 days)</option>
+        </select>
+        <span class="form-error" id="enq-prog-err" role="alert"></span>
+
+        <label for="enq-dob" style="margin-top:14px">Date of Birth <span class="required-star">*</span></label>
+        <input type="date" id="enq-dob" name="dob"
+               max="2018-01-01"
+               aria-describedby="enq-dob-err">
+        <span class="form-error" id="enq-dob-err" role="alert"></span>
+        <span class="field-hint">Used to confirm programme age eligibility.</span>
+
+        <label for="enq-start-date" style="margin-top:14px">Preferred Start Date <span class="required-star">*</span></label>
+        <input type="date" id="enq-start-date" name="start_date"
+               aria-describedby="enq-start-err">
+        <span class="form-error" id="enq-start-err" role="alert"></span>
+
+        <label for="enq-heard" style="margin-top:14px">How did you hear about us?</label>
+        <select id="enq-heard" name="heard_via">
+          <option value="">— Select —</option>
+          <option>Social media</option>
+          <option>Friend or family</option>
+          <option>Community notice board</option>
+          <option>School or university</option>
+          <option>Google / internet search</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- ── DYNAMIC: VOLUNTEERING SECTION ── -->
+      <div class="dynamic-section" id="section-volunteering">
+        <h3>&#128101; Volunteering Enquiry Details</h3>
+
+        <label for="enq-availability">Availability <span class="required-star">*</span></label>
+        <select id="enq-availability" name="availability" aria-describedby="enq-avail-err">
+          <option value="">— Select your availability —</option>
+          <option value="weekdays">Weekdays (Mon–Fri)</option>
+          <option value="weekends">Weekends (Sat/Sun)</option>
+          <option value="evenings">Evenings (Mon–Fri after 17:00)</option>
+          <option value="flexible">Flexible / Remote</option>
+        </select>
+        <span class="form-error" id="enq-avail-err" role="alert"></span>
+
+        <label for="enq-days-per-week" style="margin-top:14px">Days available per week</label>
+        <select id="enq-days-per-week" name="days_per_week">
+          <option value="">— Select —</option>
+          <option>1 day</option>
+          <option>2 days</option>
+          <option>3 days</option>
+          <option>4+ days</option>
+          <option>Flexible</option>
+        </select>
+
+        <label for="enq-vol-role" style="margin-top:14px">Preferred volunteer role</label>
+        <select id="enq-vol-role" name="vol_role">
+          <option value="">— Select —</option>
+          <option>Tutor / Mentor</option>
+          <option>Digital Skills Trainer</option>
+          <option>Wellness Facilitator</option>
+          <option>Events Coordinator</option>
+          <option>Social Media / Marketing</option>
+          <option>Admin / Office Support</option>
+          <option>Not sure — happy to be placed</option>
+        </select>
+
+        <label for="enq-skills" style="margin-top:14px">Your skills and experience <span class="required-star">*</span></label>
+        <textarea id="enq-skills" name="skills"
+                  placeholder="Describe your relevant skills, qualifications and any previous volunteer or work experience (min 10 characters)..."
+                  minlength="10" maxlength="500"
+                  aria-describedby="enq-skills-err"></textarea>
+        <span class="form-error" id="enq-skills-err" role="alert"></span>
+        <span class="field-hint">10–500 characters.</span>
+      </div>
+
+      <!-- ── DYNAMIC: SPONSORSHIP SECTION ── -->
+      <div class="dynamic-section" id="section-sponsorship">
+        <h3>&#127981; Sponsorship Enquiry Details</h3>
+
+        <label for="enq-org">Organisation / Company Name <span class="required-star">*</span></label>
+        <input type="text" id="enq-org" name="organisation"
+               placeholder="e.g. Acme Corporation (Pty) Ltd"
+               minlength="2" maxlength="120"
+               aria-describedby="enq-org-err">
+        <span class="form-error" id="enq-org-err" role="alert"></span>
+
+        <label for="enq-sponsor-type" style="margin-top:14px">Sponsorship Interest</label>
+        <select id="enq-sponsor-type" name="sponsor_type">
+          <option value="">— Select —</option>
+          <option>General programme funding</option>
+          <option>Specific event sponsorship</option>
+          <option>In-kind donations (goods / services)</option>
+          <option>Employee volunteer programme</option>
+          <option>Bursary / scholarship funding</option>
+          <option>Other / not yet decided</option>
+        </select>
+
+        <label for="enq-sponsor-amount" style="margin-top:14px">Indicative Sponsorship Amount (R) <span class="required-star">*</span></label>
+        <input type="number" id="enq-sponsor-amount" name="sponsor_amount"
+               placeholder="e.g. 10000" min="1"
+               aria-describedby="enq-amount-err">
+        <span class="form-error" id="enq-amount-err" role="alert"></span>
+        <span class="field-hint">Bronze from R5,000 · Silver from R10,000 · Gold from R20,000 · Platinum from R50,000.</span>
+      </div>
+
+      <!-- ── ADDITIONAL MESSAGE (all types) ── -->
+      <label for="enq-message" style="margin-top:20px">Additional message <span style="color:#888;font-weight:normal">(optional)</span></label>
+      <textarea id="enq-message" name="message"
+                placeholder="Any additional questions or information you would like to share... (10–1000 characters)"
+                maxlength="1000"
+                aria-describedby="enq-msg-err"></textarea>
+      <span class="form-error" id="enq-msg-err" role="alert"></span>
+
+      <!-- ── CONSENT ── -->
+      <div style="margin-top:20px;display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="enq-consent" name="consent" required
+               style="width:auto;margin-top:3px;accent-color:#8a2be2">
+        <label for="enq-consent" style="font-weight:normal;color:#444;margin-top:0">
+          I consent to BrightPath storing my information in order to process this enquiry and contact me.
+          I understand my data will not be shared with third parties.
+          <span class="required-star">*</span>
+        </label>
+      </div>
+      <span class="form-error" id="enq-consent-err" role="alert"></span>
+
+      <div style="margin-top:24px">
+        <button type="submit" id="enq-submit-btn">&#128203; Submit Enquiry</button>
+        <button type="reset" style="background:#f0e6ff;color:#6a0dad;margin-left:12px"
+                onclick="$('.dynamic-section').hide();$('.enquiry-type-card').removeClass('selected');$('#enquiry-type').val('')">
+          &#8635; Reset Form
+        </button>
+      </div>
+
+    </form>
+  </section>
+
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p>&copy; 2026 BrightPath Community Outreach Centre</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<button id="back-to-top" title="Back to top">&#8679;</button>
+<div id="toast"></div>
+
+<script src="js/main.js" defer></script>
+<script src="js/seo.js" defer></script>
+<script src="js/forms.js" defer></script>
+<script>
+/* Card picker → hidden select sync */
+$(function () {
+    $(document).on('click keydown', '.enquiry-type-card', function (e) {
+        if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
+        e.preventDefault();
+        const val = $(this).data('value');
+        $('.enquiry-type-card').removeClass('selected').attr('aria-pressed', 'false');
+        $(this).addClass('selected').attr('aria-pressed', 'true');
+        $('#enquiry-type').val(val).trigger('change');
+    });
+
+    /* Consent validation */
+    $('#enquiry-form').on('submit', function () {
+        if (!$('#enq-consent').is(':checked')) {
+            fieldError($('#enq-consent').parent(), 'You must consent to proceed.');
+            return false;
+        }
+    });
+});
+</script>
+</body>
+</html>
