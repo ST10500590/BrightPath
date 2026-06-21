@@ -18,3 +18,9 @@ added a logo
 added a mapbox
 
 added form functionality
+
+Added SEO optimization
+
+Uploaded a live website of the project
+
+https://st10500590.github.io/BrightPath/
